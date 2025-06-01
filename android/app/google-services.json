@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "671926549475",
+    "project_id": "ridezo-fbe63",
+    "storage_bucket": "ridezo-fbe63.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:671926549475:android:bc46a2f929e3ccae007ed6",
+        "android_client_info": {
+          "package_name": "com.example.ride_zo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7UEkwQLgUf79chVfuPBroe3FEbyQAsQ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
