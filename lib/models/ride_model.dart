@@ -45,3 +45,4 @@ class Ride {
         creatorId: json['creatorId'],
       );
 }
+// historical-touch: 2025-06-02T09:00:00 by 0Jahid
