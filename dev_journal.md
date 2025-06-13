@@ -5,3 +5,4 @@
 - 2025-06-08T11:20:00 : Save login state to SharedPreferences after sign-in
 - 2025-06-10T16:40:00 : Add RideShare home screen scaffold and placeholder content
 - 2025-06-12T10:10:00 : Create navigation helper and update routes
+- 2025-06-13T15:00:00 : Refactor auth logic into separate service
