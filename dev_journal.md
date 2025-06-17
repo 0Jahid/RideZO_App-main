@@ -7,3 +7,4 @@
 - 2025-06-12T10:10:00 : Create navigation helper and update routes
 - 2025-06-13T15:00:00 : Refactor auth logic into separate service
 - 2025-06-15T09:30:00 : Fix null-safety issues and update types
+- 2025-06-17T13:45:00 : Add basic UI improvements and spacing tweaks
