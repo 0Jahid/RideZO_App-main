@@ -9,3 +9,4 @@
 - 2025-06-15T09:30:00 : Fix null-safety issues and update types
 - 2025-06-17T13:45:00 : Add basic UI improvements and spacing tweaks
 - 2025-06-19T17:05:00 : Integrate shared_preferences checks into startup flow
+- 2025-06-21T08:50:00 : Start feature/auth branch and scaffold auth service
