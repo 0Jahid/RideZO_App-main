@@ -11,3 +11,4 @@
 - 2025-06-19T17:05:00 : Integrate shared_preferences checks into startup flow
 - 2025-06-21T08:50:00 : Start feature/auth branch and scaffold auth service
 - 2025-06-22T12:25:00 : Implement email verification flow
+- 2025-06-24T16:00:00 : Add error handling for sign-in and display messages
