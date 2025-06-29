@@ -11,3 +11,4 @@
 - 2025-06-19T17:05:00 : Integrate shared_preferences checks into startup flow
 - 2025-06-26T10:00:00 : Create feature/ui branch and adjust theme colors
 - 2025-06-27T14:20:00 : Improve button styles and card layouts
+- 2025-06-29T09:45:00 : Fix layout overflow on small screens
