@@ -12,3 +12,4 @@
 - 2025-06-21T08:50:00 : Start feature/auth branch and scaffold auth service
 - 2025-06-22T12:25:00 : Implement email verification flow
 - 2025-06-24T16:00:00 : Add error handling for sign-in and display messages
+- 2025-07-03T15:10:00 : Write unit test for auth service (placeholder)
