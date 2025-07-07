@@ -9,15 +9,12 @@
 - 2025-06-15T09:30:00 : Fix null-safety issues and update types
 - 2025-06-17T13:45:00 : Add basic UI improvements and spacing tweaks
 - 2025-06-19T17:05:00 : Integrate shared_preferences checks into startup flow
-<<<<<<< HEAD
-- 2025-07-01T11:30:00 : Update firebase rules and local config placeholders
-- 2025-07-05T10:50:00 : Polish sign-in error messages and logging
-=======
 - 2025-06-21T08:50:00 : Start feature/auth branch and scaffold auth service
 - 2025-06-22T12:25:00 : Implement email verification flow
 - 2025-06-24T16:00:00 : Add error handling for sign-in and display messages
+- 2025-07-01T11:30:00 : Update firebase rules and local config placeholders
 - 2025-07-03T15:10:00 : Write unit test for auth service (placeholder)
->>>>>>> feature/auth
+- 2025-07-05T10:50:00 : Polish sign-in error messages and logging
 - 2025-07-08T09:15:00 : Small fixes from review and remove unused imports
 - 2025-07-09T16:45:00 : Final UI touchups and build configuration
 - 2025-07-10T10:00:00 : Release-ready: bump version and update changelog
