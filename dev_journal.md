@@ -20,3 +20,4 @@
 >>>>>>> feature/auth
 - 2025-07-08T09:15:00 : Small fixes from review and remove unused imports
 - 2025-07-09T16:45:00 : Final UI touchups and build configuration
+- 2025-07-10T10:00:00 : Release-ready: bump version and update changelog
