@@ -16,6 +16,7 @@ class ProfileScreen extends StatelessWidget {
       body: SingleChildScrollView(
         padding: const EdgeInsets.all(16.0),
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             // Profile avatar with pencil icon
             Center(
@@ -25,7 +26,7 @@ class ProfileScreen extends StatelessWidget {
                     radius: 60,
                     backgroundColor: Colors.grey[300],
                     backgroundImage: AssetImage(
-                      'assets/images/default_profile.png',
+                      'assets/images/car1.png',
                     ),
                   ),
                   Positioned(
@@ -72,10 +73,8 @@ class ProfileScreen extends StatelessWidget {
 
             SizedBox(height: 24),
 
-            // Settings and other options
-            ListView(
-              shrinkWrap: true,
-              physics: NeverScrollableScrollPhysics(),
+            // Settings and other options (use Column to avoid nested scrollables)
+            Column(
               children: [
                 ListTile(
                   leading: Icon(Icons.settings, color: Colors.green),
@@ -83,18 +82,21 @@ class ProfileScreen extends StatelessWidget {
                   trailing: Icon(Icons.chevron_right),
                   onTap: () {},
                 ),
+                Divider(),
                 ListTile(
                   leading: Icon(Icons.payment, color: Colors.green),
                   title: Text('Billing Details'),
                   trailing: Icon(Icons.chevron_right),
                   onTap: () {},
                 ),
+                Divider(),
                 ListTile(
                   leading: Icon(Icons.history, color: Colors.green),
                   title: Text('Ride History'),
                   trailing: Icon(Icons.chevron_right),
                   onTap: () {},
                 ),
+                Divider(),
                 ListTile(
                   leading: Icon(Icons.logout, color: Colors.redAccent),
                   title: Text(
