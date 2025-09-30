@@ -25,9 +25,7 @@ class ProfileScreen extends StatelessWidget {
                   CircleAvatar(
                     radius: 60,
                     backgroundColor: Colors.grey[300],
-                    backgroundImage: AssetImage(
-                      'assets/images/car1.png',
-                    ),
+                    backgroundImage: AssetImage('assets/images/car1.png'),
                   ),
                   Positioned(
                     bottom: 0,
