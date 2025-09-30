@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:ride_zo/reusable_widgets/reusable_widget.dart';
 import 'package:ride_zo/screens/authentication_screens/reset_password.dart';
 import 'package:ride_zo/screens/authentication_screens/signup_screen.dart';
-import 'package:ride_zo/screens/home_screen.dart'; 
-import 'package:shared_preferences/shared_preferences.dart'; 
+import 'package:ride_zo/screens/home_screen.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 class SignInScreen extends StatefulWidget {
   const SignInScreen({super.key});
@@ -38,9 +38,7 @@ class _SignInScreenState extends State<SignInScreen> {
       UserCredential userCredential = await FirebaseAuth.instance
           .signInWithEmailAndPassword(email: email, password: password);
 
-     
       if (userCredential.user != null && userCredential.user!.emailVerified) {
-       
         final prefs = await SharedPreferences.getInstance();
         prefs.setBool('hasLoggedIn', true);
 
@@ -49,7 +47,6 @@ class _SignInScreenState extends State<SignInScreen> {
           context,
           MaterialPageRoute(builder: (context) => RideShareHomeScreen()),
         );
-
       } else {
         ScaffoldMessenger.of(context).showSnackBar(
           const SnackBar(
@@ -115,7 +112,7 @@ class _SignInScreenState extends State<SignInScreen> {
                 SizedBox(height: screenHeight * 0.04),
 
                 const Text(
-                  'Welcome to RideZO',
+                  'Welcome to Ride',
                   style: TextStyle(
                     fontSize: 22,
                     fontWeight: FontWeight.bold,
@@ -224,4 +221,5 @@ class _SignInScreenState extends State<SignInScreen> {
     );
   }
 }
+
 // historical-touch: 2025-06-08T11:05:00 by 0Jahid

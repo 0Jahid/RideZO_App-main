@@ -41,6 +41,8 @@ dependencies:
   firebase_database: ^11.3.9
   cloud_firestore: ^5.6.11
   provider: ^6.1.5
+  simple_animations: ^5.0.0
+  page_transition: ^2.0.9
 
 dev_dependencies:
   flutter_test:
@@ -70,6 +72,7 @@ flutter:
     - assets/images/car3.png
     - assets/images/create.png
     - assets/images/join.png
+    - assets/images/one.png
 
 
   # An image asset can refer to one or more resolution-specific "variants", see
