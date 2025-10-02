@@ -28,6 +28,8 @@ RideZO addresses real-world transportation challenges faced by university studen
   <img src="https://i.ibb.co.com/Wpch1JcY/ride-Zo-fd.gif" alt="RideZO Demo" width="300"/>
 </div>
 
+![Demo](https://i.ibb.co.com/Wpch1JcY/ride-Zo-fd.gif)
+
 **[🎥 Watch Full Demo Video](https://i.ibb.co.com/Wpch1JcY/ride-Zo-fd.gif)**
 
 ---
