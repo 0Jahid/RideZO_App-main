@@ -24,13 +24,22 @@ RideZO addresses real-world transportation challenges faced by university studen
 *[Screenshots will be added here]*
 
 ### Live Demo
+
+#### **🎬 App Launch & Authentication**
 <div align="center">
-  <img src="https://i.ibb.co.com/Wpch1JcY/ride-Zo-fd.gif" alt="RideZO Demo" width="300"/>
+  <img src="assets/gif/1.gif" alt="RideZO Splash & Login Demo" width="300"/>
+  <br>
+  <em>Splash screen animation and user authentication flow</em>
 </div>
 
-![Demo](https://i.ibb.co.com/Wpch1JcY/ride-Zo-fd.gif)
+#### **🚗 Ride Creation & Joining**
+<div align="center">
+  <img src="assets/gif/2.gif" alt="RideZO Ride Management Demo" width="300"/>
+  <br>
+  <em>Creating a new ride and joining existing rides</em>
+</div>
 
-**[🎥 Watch Full Demo Video](https://i.ibb.co.com/Wpch1JcY/ride-Zo-fd.gif)**
+**[🎥 View External Demo](https://i.ibb.co.com/Wpch1JcY/ride-Zo-fd.gif)**
 
 ---
 
